@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 7 Jogos (2017 - 2026)</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <header>
+    <h1>Top 7 Jogos Mais Bem Avaliados</h1>
+    <p>Lançamentos entre 2017 e 2026</p>
+  </header>
+
+  <main>
+    <div id="games-list" class="games-container"></div>
+  </main>
+
+  <!-- Modal de Detalhes -->
+  <div id="game-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-btn" class="close-btn">&times;</span>
+      <h2 id="modal-title"></h2>
+      <div id="modal-rating" class="stars"></div>
+      
+      <p><strong>Ano:</strong> <span id="modal-year"></span></p>
+      <p><strong>Descrição:</strong> <span id="modal-description"></span></p>
+      <p><strong>Plataformas Compatíveis:</strong> <span id="modal-platforms"></span></p>
+      <p><strong>Onde Comprar:</strong> <span id="modal-stores"></span></p>
+      
+      <h3>Requisitos de Sistema</h3>
+      <p id="modal-specs"></p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
